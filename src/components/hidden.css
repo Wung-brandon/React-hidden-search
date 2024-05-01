@@ -12,6 +12,15 @@ section{
     transition: 0.7s ease;
     /* cursor: pointer; */
 }
+.search-btn{
+    border: 0;
+    padding: 0.9rem;
+    border-radius: 7px;
+    font-weight: bold;
+    background-color: #fd2422;
+    cursor: pointer;
+    color: white;
+}
 input{
     padding: 13px 12px;
     outline: none;

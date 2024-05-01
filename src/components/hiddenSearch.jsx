@@ -25,7 +25,7 @@ export default function HiddenSearch(){
                     <input type="text" placeholder='Search...'/>
                 ) : 
                 (
-                    <button onClick={() => setShowInput(true)}>Search</button>
+                    <button className='search-btn' onClick={() => setShowInput(true)}>Search</button>
                 )}
             </section>
             <h1>hello</h1>
